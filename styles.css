@@ -139,6 +139,16 @@ header {
   background-color: var(--colorSeven);
 }
 
+.is_visible {
+  opacity: 1 !important;
+  transform: translateY(0px) !important;
+}
+
+.show_on_scroll {
+  transition: transform 2s, opacity 1s;
+  opacity: 0;
+  transform: translateY(80px);
+}
 /*  Footer  */
 .footer {
   display: grid;
